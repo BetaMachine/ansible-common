@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Julien Peeters <contact@julienpeeters.net>
+  description: BetaMachine IT team
+  company: BetaMachine
+
+  license: MIT
+
+  min_ansible_version: 1.2
+
+  platforms:
+  - name: Debian
+    versions:
+    - stable
+
+  galaxy_tags: []
+
+dependencies: []

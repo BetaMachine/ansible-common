@@ -1,0 +1,11 @@
+---
+- name: Install mandatory packages
+  apt:
+    name: "{{ item }}"
+    state: installed
+  with_items:
+    - htop
+    - ntp
+    - apt-transport-https
+    - python2.7
+    - pip-python2.7
